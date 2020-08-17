@@ -9,7 +9,7 @@ import reducers from './reducers';
 import * as serviceWorker from './serviceWorker';
 
 const store = createStore(reducers, applyMiddleware(thunk));
-
+// prueba de rama de git nueva y commit
 ReactDOM.render(
     <Provider store={ store }>
         <App />
